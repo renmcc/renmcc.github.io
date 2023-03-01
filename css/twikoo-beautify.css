@@ -1,0 +1,9 @@
+/* 自定义twikoo评论输入框高度 */
+.tk-input .el-textarea__inner {
+    height: 180px !important;
+  }
+  /* 输入评论时自动隐藏输入框背景图片 */
+  .tk-input .el-textarea__inner:focus {
+    background-image: none !important;
+  }
+  

@@ -1,0 +1,201 @@
+
+/* body,
+.gitcalendar {
+    font-family: tzy !important;
+} */
+
+/* #page-header.nav-fixed #nav a, #page-header.nav-fixed #nav #site-name, #page-header.nav-fixed #nav #toggle-menu {
+    color: rgb(6, 247, 247) !important;
+    text-shadow: none !important;
+}
+
+#page-header #site-title {
+    font-size: 3em;
+    color: rgb(6, 247, 247);
+}
+
+#nav a {
+    color: rgb(6, 247, 247);
+} */
+
+#article-container .fancybox img {
+    margin: 0 auto 0.8rem 0;
+}
+
+#article-container .xk-card-content[data-v-185689ea] .fancybox, #article-container .xk-card-content[data-v-185689ea] video {
+    display: block !important;
+    margin-top: -37px !important;
+    max-width: 24% !important;
+}
+
+.xk-card-content be {
+    display: inline-block !important;
+}
+
+.xk-card-content be img {
+    display: inline-block !important;
+    margin: 0px 0px -5px 3px !important;
+}
+
+.xk-card-content img {
+    display: inline-block !important;
+    margin: 0px 0px -5px 3px !important;
+}
+
+
+
+#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
+    background: rgba(255,255,255,.9);
+}
+
+
+#aside-content .card-widget {
+    background: rgba(255,255,255,.9);
+}
+
+
+#footer {
+    background: rgba(2, 0, 14, 0.5);
+    color: #000;
+    backdrop-filter: saturate(100%) blur(5px)
+}
+
+
+#footer::before {
+    background: rgba(2, 0, 14, 0.5);
+}
+
+#footer #footer-wrap {
+    background: rgba(2, 0, 14, 0.5);
+    /* height:200px; */
+}
+
+
+#footer #footer-wrap a {
+    background: rgba(2, 0, 14, 0.5);
+}
+
+
+/* 相册错乱*/
+/* a > img, .justified-gallery > div > img,
+.justified-gallery > figure > img,
+.justified-gallery > a > a > img,
+.justified-gallery > div > a > img,
+.justified-gallery > figure > a > img,
+.justified-gallery > a > svg,
+.justified-gallery > div > svg,
+.justified-gallery > figure > svg,
+.justified-gallery > a > a > svg,
+.justified-gallery > div > a > svg,
+.justified-gallery > figure > a > svg{
+  position:static!important;} */
+
+
+/*隐藏bber*/
+.xk-footer {
+    display: none;
+}
+
+/*隐藏评论*/
+.tk-footer {
+    display: none;
+}
+
+/*去掉文章顶部图片*/
+#page-header, #page-header:before {
+    background-color: transparent !important;
+    background-image: unset !important;
+}
+
+
+/*修改备案样式*/
+
+#footer #footer-wrap a {
+    background: none !important;
+    text-decoration:none !important;
+}
+
+
+#aside-content .card-widget.latestBB {
+    display: none;
+}
+
+/* 侧边栏天气时钟去掉背景色 */
+#aside-content.aside-content > .sticky_layout > .card-widget.card-clock > .card-glass > .card-background {
+    background-color: unset;
+    box-shadow: unset;
+}
+
+/*隐藏主页名*/
+/* #site-info #site-title{
+    display: none;
+} */
+
+
+/*文章图片左对齐*/
+#article-container img {
+    display: block;
+    margin: 0px 0px 20px;
+}
+
+/*强制不显示歌词*/
+.aplayer.aplayer-fixed .aplayer-lrc{
+    display: none!important;
+}
+
+/* aplayer播放器缩进 */
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+    left: -66px !important;  /* 默认情况下缩进左侧66px，只留一点箭头部分 */
+  }
+  .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+    left: 0 !important;  /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
+  }
+  /* aplayer播放器缩进 */
+
+
+
+/* 背景 */
+
+/*
+#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
+    background: var(--light_bg_color)
+}
+
+#aside-content .card-widget {
+    background: var(--light_bg_color)
+}
+*/
+
+/*
+#web_bg {
+    background: linear-gradient(90deg,rgba(247,149,51,.1),rgba(243,112,85,.1) 15%,rgba(239,78,123,.1) 30%,rgba(161,102,171,.1) 44%,rgba(80,115,184,.1) 58%,rgba(16,152,173,.1) 72%,rgba(7,179,155,.1) 86%,rgba(109,186,130,.1))
+}
+*/
+/* 背景 */
+
+
+/* 自定义字体 */
+@font-face {
+    font-family: 'tzy';
+    /* 字体名自定义即可 */
+    src: url('/font/ZhuZiAWan.woff2');
+    /* 字体文件路径 */
+    font-display: swap;
+}
+
+body,
+.gitcalendar {
+    font-family: tzy !important;
+}
+/* 自定义字体 */
+
+
+
+/*电子钟字体*/
+@font-face {
+    font-family: 'UnidreamLED';
+    src: url("/font/UnidreamLED.ttf");
+    font-display: swap;
+  }
+
+  /*电子钟字体*/
